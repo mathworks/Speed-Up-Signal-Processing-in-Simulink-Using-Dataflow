@@ -1,8 +1,10 @@
 #readme
 
-This contribution demonstrates the simulation speedup that can be achieved with Dataflow in a Simulink model. The model simulates a radio transmitter and receiver with different inputs and uses Dataflow to run the model on multiple threads, leading to faster simulation.
+This contribution demonstrates the simulation speedup that can be achieved with Dataflow in a Simulink model. 
 
-There are 2 pairs of Simulink models included, with and without Dataflow implemented for comparison.
+There are 2 pairs of Simulink models included, with and without Dataflow implemented. The models simulate a radio transmitter and receiver with different inputs.
+
+The MATLAB scripts are used to run and measure the runtime of the models.
 
 Model Files:
 1. mono_radiomodel.slx (mono-channel audio input into radio model)
